@@ -15,7 +15,7 @@ export const LoginForm = () => {
     return (
         <Card >
             <h1 > Login </h1>
-            <Input label="email" type={"email"} value={email} placeHolder={"ingrese email"} onChange={(e) => setEmail(e.target.value)} />
+            <Input label="text" type={"usuario"} value={email} placeHolder={"ingrese email"} onChange={(e) => setEmail(e.target.value)} />
             <Input type={"password"} label={"contraseña"} value={password} placeHolder={"Ingrese contraseña"} onChange={(e) => setPassword(e.target.value)} />
             <div className="justify-end" >
                 <Button name={"Iniciar sesión"} onClick={token} />
