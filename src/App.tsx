@@ -1,13 +1,12 @@
-import { LoginForm } from './components/LoginForm'
 import './index.css'
-
+import { AppRoutes } from './AppRoutes'
 function App() {
 
 
 
   return (
     <>
-      <LoginForm />
+      <AppRoutes />
     </>
   )
 }
