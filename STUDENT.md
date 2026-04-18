@@ -1,0 +1,5 @@
+- Nombre completo:  Brayan Alexis Quebrada Castañeda
+- Número de documento: 1038385031
+- Fecha:             18 de abril de 2026
+- Hora de inicio:    08:00
+- Examen:            PantryScope (Parte)
