@@ -10,7 +10,7 @@ interface InputProps {
 
 export const Input = (props: InputProps) => {
     return (
-        <div className="grid-cols-1">
+        <div className="grid-cols-1 p-3 m-2">
             <label className="text-xs">{props.label}</label>
             <input placeholder={props.placeHolder} value={props.value} onChange={props.onChange} type={props.type} id={props.label}
 
