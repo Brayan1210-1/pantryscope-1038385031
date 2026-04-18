@@ -7,6 +7,7 @@ export const AppRoutes = () => {
 
             <Routes>
 
+
                 <Route index element={< LoginForm />} />
 
                 <Route path="*" element={<h1>pagina no encontrada</h1>} />

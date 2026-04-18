@@ -2,14 +2,17 @@ import { Input } from "../atoms/Input";
 import { Button } from "../atoms/Button";
 import { useState } from "react";
 import { Card } from "../atoms/Card";
+import { useNavigate } from "react-router";
 
 export const LoginForm = () => {
     /* mocks de la api*/
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const navigate = useNavigate();
 
     const token = () => {
         localStorage.setItem("pantryscope_token", "autenticado");
+        navigate("/recipes")
     }
 
     return (
